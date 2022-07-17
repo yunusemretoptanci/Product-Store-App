@@ -1,0 +1,51 @@
+.create-product-container{
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+}
+
+.create-product-container form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.create-product-container h3{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px 0 10px 0;
+}
+
+.input-description{
+    height: 100px;
+    text-align: top;
+}
+
+textarea{
+    margin-top: 20px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    resize: none;
+}
+
+.create-product-container form select{
+    margin-top: 20px;
+    width: 100%;
+}
+
+.create-product-container form button{
+    height: 50px;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    font-weight: 600;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
